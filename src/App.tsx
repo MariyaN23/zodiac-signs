@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {AllSigns, ZodiacSigns} from "./components/ZodiacSigns";
+import {BrowserRouter, Route, Routes, useParams} from "react-router-dom";
+import {Sign} from "./components/Sign";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Routes>
+                    <Route path={'/'} element={<ZodiacSigns/>}/>
+                    <Route path="/signs/:sign" element={<SignWrapper />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
+
+const SignWrapper = () => {
+    const { sign } = useParams();
+    const signData = AllSigns.find(s => s.signEngName.toLowerCase() === sign?.toLowerCase());
+
+    return signData ? <Sign {...signData} /> : <div>Sign not found</div>;
+};
 
 export default App;
