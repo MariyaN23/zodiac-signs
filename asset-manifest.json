@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/zodiac-signs/static/css/main.f855e6bc.css",
+    "main.js": "/zodiac-signs/static/js/main.f0b71f44.js",
+    "static/js/367.a5527ca6.chunk.js": "/zodiac-signs/static/js/367.a5527ca6.chunk.js",
+    "static/media/scorpio.jpg": "/zodiac-signs/static/media/scorpio.755b8cb068b543d694b9.jpg",
+    "static/media/cancer.jpg": "/zodiac-signs/static/media/cancer.20b053d5c142313652e3.jpg",
+    "static/media/capricorn.jpg": "/zodiac-signs/static/media/capricorn.5704265cf19fcadac808.jpg",
+    "static/media/taurus.jpg": "/zodiac-signs/static/media/taurus.0745ccc014d84f03b586.jpg",
+    "static/media/aries.jpg": "/zodiac-signs/static/media/aries.1cc1b2644b876d8cbf31.jpg",
+    "static/media/gemini.jpg": "/zodiac-signs/static/media/gemini.c1486d7dadb7f3afdcaf.jpg",
+    "static/media/leo.jpg": "/zodiac-signs/static/media/leo.459545b47880c98b2b8f.jpg",
+    "static/media/pisces.jpg": "/zodiac-signs/static/media/pisces.9c6880fc1a7e22ab8d1e.jpg",
+    "static/media/sagittarius.jpg": "/zodiac-signs/static/media/sagittarius.a69f938b93d8ed87d69c.jpg",
+    "static/media/virgo.jpg": "/zodiac-signs/static/media/virgo.da2aee551dae6a69a962.jpg",
+    "static/media/libra.jpg": "/zodiac-signs/static/media/libra.6361d79bcbf94ef70c61.jpg",
+    "static/media/aquarius.jpg": "/zodiac-signs/static/media/aquarius.9d87197ed4e2dd682cfc.jpg",
+    "index.html": "/zodiac-signs/index.html",
+    "main.f855e6bc.css.map": "/zodiac-signs/static/css/main.f855e6bc.css.map",
+    "main.f0b71f44.js.map": "/zodiac-signs/static/js/main.f0b71f44.js.map",
+    "367.a5527ca6.chunk.js.map": "/zodiac-signs/static/js/367.a5527ca6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f0b71f44.js"
+  ]
+}
