@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zodiac-signs/static/css/main.f855e6bc.css",
-    "main.js": "/zodiac-signs/static/js/main.9298788b.js",
+    "main.css": "/zodiac-signs/static/css/main.6a269d30.css",
+    "main.js": "/zodiac-signs/static/js/main.52eba9fc.js",
     "static/js/367.a5527ca6.chunk.js": "/zodiac-signs/static/js/367.a5527ca6.chunk.js",
     "static/media/scorpio.jpg": "/zodiac-signs/static/media/scorpio.755b8cb068b543d694b9.jpg",
     "static/media/cancer.jpg": "/zodiac-signs/static/media/cancer.20b053d5c142313652e3.jpg",
@@ -16,12 +16,12 @@
     "static/media/libra.jpg": "/zodiac-signs/static/media/libra.6361d79bcbf94ef70c61.jpg",
     "static/media/aquarius.jpg": "/zodiac-signs/static/media/aquarius.9d87197ed4e2dd682cfc.jpg",
     "index.html": "/zodiac-signs/index.html",
-    "main.f855e6bc.css.map": "/zodiac-signs/static/css/main.f855e6bc.css.map",
-    "main.9298788b.js.map": "/zodiac-signs/static/js/main.9298788b.js.map",
+    "main.6a269d30.css.map": "/zodiac-signs/static/css/main.6a269d30.css.map",
+    "main.52eba9fc.js.map": "/zodiac-signs/static/js/main.52eba9fc.js.map",
     "367.a5527ca6.chunk.js.map": "/zodiac-signs/static/js/367.a5527ca6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.9298788b.js"
+    "static/css/main.6a269d30.css",
+    "static/js/main.52eba9fc.js"
   ]
 }
