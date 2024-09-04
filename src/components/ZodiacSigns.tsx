@@ -12,6 +12,7 @@ import sagittarius from '../assets/images/sagittarius.jpg'
 import aquarius from '../assets/images/aquarius.jpg'
 import pisces from '../assets/images/pisces.jpg'
 import {useNavigate} from "react-router-dom";
+import s from './style.module.css'
 
 export const AllSigns = [
     {
@@ -94,10 +95,10 @@ export const ZodiacSigns = () => {
         navigate(`/signs/${sign}`)
     }
     return (
-        <div>
+        <div className={s.signs}>
             {AllSigns.map((sign, index) => (
                 <div key={index}>
-                    <img src={sign.icon} alt={sign.signEngName} onClick={() => handleClick(sign.signEngName)} width={'100px'} height={'100px'}/>
+                    <img src={sign.icon} alt={sign.signEngName} onClick={() => handleClick(sign.signEngName)}/>
                 </div>
             ))}
         </div>

@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
 import {AllSigns, ZodiacSigns} from "./components/ZodiacSigns";
 import {BrowserRouter, Route, Routes, useParams} from "react-router-dom";
 import {Sign} from "./components/Sign";
 
 function App() {
     return (
-        <div className="App">
+        <div>
             <BrowserRouter>
                 <Routes>
                     <Route path={'/'} element={<ZodiacSigns/>}/>
